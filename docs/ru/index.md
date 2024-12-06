@@ -12,7 +12,8 @@ geometric_lib - библитотека, реализующая различны�
 ## История изменения проекта:
 |  author  |   date   | commit hash |                               commit message                               |
 |----------|----------|-------------|----------------------------------------------------------------------------|
-| s3ne4ka  | 28.11.24 |   fda3465   |       fix: change return value in function 'perimeter' in rectangle.py     |
+| s3ne4ka  | 06.12.24 |   79761c9   |       chore: add file and inline code documentation and update README      |
+| s3ne4ka  | 28.11.24 |   a0d120a   |       fix: change return value in function 'perimeter' in rectangle.py     |
 | s3ne4ka  | 28.11.24 |   40861b8   |                           refactor: add triangle.py                        |
 | s3ne4ka  | 28.11.24 |   fda3465   |                           refactor: add rectangle.py                       |
 | smartiqa | 04.03.21 |   d078c8d   |                               L-03: Docs added                             |
