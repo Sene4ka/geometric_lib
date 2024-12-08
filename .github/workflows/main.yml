@@ -20,11 +20,6 @@ jobs:
         with:
           python-version: '3.13.0'
           
-      - name: Install Dependencies
-        run: |
-          python -m pip install upgrade pip
-          pip install unittest
-          
       - name: Test circle
         run: python -m unittest circle.py
         
@@ -49,11 +44,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.13.0'
-          
-      - name: Install Dependencies
-        run: |
-          python -m pip install upgrade pip
-          pip install unittest
           
       - name: Test circle
         run: python -m unittest circle.py
